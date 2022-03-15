@@ -1,5 +1,4 @@
 import React from 'react'
-import { TextPropTypes } from 'react-native'
 import { TouchableOpacity, View, Text, StyleSheet } from 'react-native-web'
 
 function makeGreen(){

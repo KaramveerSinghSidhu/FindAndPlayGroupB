@@ -23,14 +23,14 @@ function App() {
     <NavigationContainer>
       <Stack.Navigator>
         {/* MOVE GAME SCREEN TO ITS OWN STACK NAVIGATOR*/}
-      <Stack.Screen
-          name="GameScreen"
-          component={GameScreen}
-          options={{ headerShown: false }}
-        />
-      <Stack.Screen
+        <Stack.Screen
           name="EndScreen"
           component={EndScreen}
+          options={{ headerShown: false }}
+        />
+        <Stack.Screen
+          name="GameScreen"
+          component={GameScreen}
           options={{ headerShown: false }}
         />
         <Stack.Screen

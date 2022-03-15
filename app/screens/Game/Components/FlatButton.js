@@ -10,8 +10,8 @@ function makeGreen(){
 function makeRed(){
     //if(item.hasSet == false){
     //    item.score = 0
-    //    item.hasSet = true;
-    //}
+        item.hasSet = true;
+    }
 }
 
 function Btn({color, texts, onClick}) {
